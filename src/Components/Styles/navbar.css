@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
+    position: sticky;
 }
 
 .show-ul{
@@ -42,8 +43,7 @@
         margin-top: 1rem;
         position: absolute;
         top:0%;
-        left:80%
-
+        left:80%;
     }
     #navbar-container{
         flex-direction: column;
@@ -57,17 +57,19 @@
         width: 100%;
         margin: 0rem;
         background-color: rgb(53,53,168);
-        position: relative;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
     }
     .not-show{
         display: flex;
         flex-direction: column;
         justify-content:space-evenly;
         align-items: center;
-        height: 100vh;
+        height: 40vh;
         width: 100%;
-        list-style: none;
-        
+        list-style: none;    
     }
     .show-ul{
         display: none;

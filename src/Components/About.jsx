@@ -4,12 +4,11 @@ const About = () => {
         const [skills]= useState([
             'Javascript','React-js','Node js','Express Js',"C++",'Python','Git & GitHub', 'Data Structures and Algorithms'
         ]);
-        const [h1Name] = useState("h1-about")
         
 
   return (
     <div id="about">
-    <h1 id={h1Name}>About Me and My Skills</h1>
+    <h1 id="h1-about">About Me and My Skills</h1>
 
         
             <div id="paragraph-contianer">

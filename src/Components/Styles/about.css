@@ -79,27 +79,35 @@ a{
 }
 .project{
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap:6rem;
-    width: 90%;
+    grid-template-columns: 1fr 7fr;
+    gap:4rem;
+    width: 100%;
     margin: auto;
     align-items: center;
     padding: 2rem;
-
+    margin-bottom: 1rem;
     
 }
-.description{
-    width: 60%;
-}
 
+.description{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.description button{
+    width: 9rem;
+    margin-top: 2.4rem !important;
+}
 .project-name{
     display: flex;
-    width: 40%;
-    justify-content: space-around;
+    width: 100%;
+    justify-content:flex-start;
 }
 .project h3{
     margin-bottom: 1rem;
 }
+
 
 .project img{
     width: 400px;
@@ -111,6 +119,7 @@ a{
     align-items: center;
     margin-top: 1rem;
 }
+
 @media screen and (max-width : 580px) {
  
     #skills-div{
@@ -129,13 +138,40 @@ a{
     .project-name{
         width: 100%;
         margin-bottom: 1rem;
+        justify-content: center;
     }
     #projects{
         width: 90%;
     }
     .project img{
-        width: 250px;
-        height: 141px;
+        width: 300px;
+        height: 169px;
     }
     
+}
+
+@media screen and (max-width : 1060px) and (min-width: 580px){
+    .project{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+    }
+    .description{
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .project-name{
+        width: 100%;
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+    #projects{
+        width: 90%;
+    }
+    .project img{
+        width: 350px;
+        height: 198px;
+    }
 }
