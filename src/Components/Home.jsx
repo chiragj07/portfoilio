@@ -1,6 +1,7 @@
 import React from 'react'
 import './Styles/home.css'
-import fnal from '../assets/fnal.png'
+import chirag from '../assets/chirag.png'
+
 const Home = () => {
     
     return (
@@ -14,7 +15,7 @@ const Home = () => {
                <a href="#contact">Connect Me</a> </button>
         </div>
         <div id="image-container">
-            <img src={fnal} alt="unavailable" width={"328px"} height={"300px"} />
+            <img src={chirag} alt="unavailable" width={"328px"} height={"300px"} />
         </div>    
 
     </div>
