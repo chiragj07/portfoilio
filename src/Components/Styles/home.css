@@ -1,0 +1,36 @@
+#home-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 4rem;
+}
+#home-container p{
+    margin-top: 1rem;
+}
+#contact-button{
+    padding: 0.7rem 1rem;
+    background-color: rgb(53, 53, 168);
+    border: none;
+    border-radius: 30px;
+    color: antiquewhite;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+@media screen and (max-width : 580px) {
+    #home-container{
+        flex-direction:column-reverse;
+    }   
+    #image-container{
+        margin-right: 4rem;
+    }
+    #intro-container{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    
+}
