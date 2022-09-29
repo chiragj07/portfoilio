@@ -1,6 +1,6 @@
 import React from 'react'
 import './Styles/about.css'
-import CHIRAG_JOSHI_SL_EXP_GRAD_22_RES from  "../assets/CHIRAG_JOSHI_SL_EXP_GRAD_22_RES.pdf"
+import CHIRAG_JOSHI_SL_EXP_GRAD_22_RES from  "../assets/CHIRAG_JOSHI_RESUME_GRAD_22_U.pdf"
 const Contact = () => {
   return (
     <div id="contact">
