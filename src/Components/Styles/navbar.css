@@ -41,10 +41,11 @@
         display: flex;
         align-self: flex-end;
         margin-right: 1rem;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         position: absolute;
         top:0%;
         left:80%;
+        z-index: 10;
     }
     #navbar-container{
         flex-direction: column;
@@ -57,11 +58,10 @@
         flex-direction: column;
         width: 100%;
         margin: 0rem;
-        background-color: rgb(53,53,168);
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 2;
+        /* z-index: 2; */
     }
     .not-show{
         display: flex;
@@ -70,11 +70,21 @@
         align-items: center;
         height: 40vh;
         width: 100%;
-        list-style: none;    
+        list-style: none;  
+        animation: TranslateAnimation 600ms forwards ease;  
     }
+    
+
+    
+
     .show-ul{
         display: none;
     }
+    
+    @keyframes TranslateAnimation {
+        0% {opacity: 0; transform: translateY(-40vh)}
+        100% {opacity: 1; transform: translateY(0); background-color: rgb(53,53,168); }        
+}
     a{
         color: antiquewhite;
         text-decoration: none;
