@@ -1,6 +1,6 @@
 import React from 'react'
 import './Styles/about.css'
-import CHIRAG_JOSHI_SL_EXP_GRAD_22_RES from  "../assets/CHIRAG_JOSHI_RESUME_GRAD_22_U.pdf"
+import CHIRAG_JOSHI_SL_EXP_GRAD_22_RES from  "../assets/CHIRAG_JOSHI_RESUME_GRAD_22.pdf"
 const Contact = () => {
   return (
     <div id="contact">
@@ -10,7 +10,7 @@ const Contact = () => {
             <p>Download My Resume If want to get in touch  </p>
 
             <button id="download-button">
-                <a href={CHIRAG_JOSHI_SL_EXP_GRAD_22_RES} download="chirag_resume.pdf">
+                <a href={CHIRAG_JOSHI_SL_EXP_GRAD_22_RES} download="chirag_joshi_resume_grad_22.pdf">
                 <i class="fa fa-download"></i> Download
                 </a>
             </button>
