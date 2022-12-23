@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Styles/about.css'
 const About = () => {
         const [skills]= useState([
-            'Javascript','React-js','Node js','Express Js',"C++",'Python','Git & GitHub', 'Data Structures and Algorithms'
+            'Javascript','React-js','Node js','Express Js',"C++","Java",'Python','Git', 'Data Structures and Algorithms',"Docker","Solr","SQL","Mongodb"
         ]);
         
 
