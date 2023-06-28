@@ -7,6 +7,10 @@ import Project from './Components/Project';
 import ReactGA from 'react-ga4'
 function App() {
  ReactGA.initialize("G-8RLV8JFTG0");
+ ReactGA.send({ hitType: "pageview", page: "/my-path" })
+ ReactGA.set({
+  "userName" : "I am sherlock"
+ })
  console.log(document.location.pathname);
  const handleClick = (e) => {
   console.log("Clickes")
