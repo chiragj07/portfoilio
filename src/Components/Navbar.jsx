@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Styles/navbar.css'
-const Navbar = () => {
+const Navbar = ({ handleClick }) => {
 
   const [isMobile,setIsMobile]=useState(false);
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
 
         <ul className={!isMobile ? "show-ul" : "not-show"}  onClick={()=>setIsMobile(false)}>
-            <li> <a href='#home-container'>Home</a></li>
+            <li onClick={handleClick}> <a href='#home-container'>Home</a></li>
             <li><a href='#about'>About</a></li>
             <li><a href='#projects'>Projects</a></li>
             <li><a href='#contact'>Contact me</a></li>

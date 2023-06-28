@@ -11,7 +11,7 @@ const Contact = () => {
 
             <button id="download-button">
                 <a href={CHIRAG_JOSHI_SL_EXP_GRAD_22_RES} download="chirag_joshi_resume_grad_22.pdf">
-                <i class="fa fa-download"></i> Download
+                <i className="fa fa-download"></i> Download
                 </a>
             </button>
         
